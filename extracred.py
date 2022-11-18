@@ -70,9 +70,9 @@ def main():
             #generate rand y value
             y = random.randrange(100, wWidth / 2)
 
-            for check in tCircles:
-                x2 = check[0]
-                y2 = check[1]
+            for check1 in tCircles:
+                x2 = check1[0]
+                y2 = check1[1]
 
                 euclidiandistance = math.dist([x,y],[x2,y2])
 
